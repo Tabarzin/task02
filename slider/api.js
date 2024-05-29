@@ -1,5 +1,3 @@
-// import axios from "axios";
-
 export async function fetchPhotos() {
   try {
     const response = await axios.get(
