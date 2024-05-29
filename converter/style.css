@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.main {
+  text-align: center;
+}
+.main h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+.main .rates {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.main .rates .rate-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.main .rates .rate-list .rate-item {
+  font-size: 1.5rem;
+  color: #555;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px;
+}
+.main .rates .rate-list .rate-item .rate-value {
+  font-weight: bold;
+  color: #112288;
+  background: #eef;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.main .rates .rate-list .rate-item:nth-child(odd) {
+  background: #f9f9f9;
+}
+.main .rates .rate-list .rate-item:nth-child(even) {
+  background: #f1f1f1;
+}
+
+/*# sourceMappingURL=style.css.map */
