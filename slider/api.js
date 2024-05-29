@@ -9,7 +9,7 @@ export async function fetchPhotos() {
     const photoDetails = photos.map((photo) => {
       return {
         title: photo.title,
-        url: photo.url,
+        url: photo.thumbnailUrl,
       };
     });
     return photoDetails;
